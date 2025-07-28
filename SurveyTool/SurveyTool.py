@@ -81,16 +81,36 @@ class SurveyTool():
             self,
             question: str
     ):
+        """Get responses for a specific question
+        
+        Args:
+            question (str): The question to get responses for
+            
+        Returns:
+            pd.DataFrame: DataFrame containing question and responses
+            
+        Raises:
+            KeyError: If question is not found
+            IOError: If there are issues reading the file
+        """
+        if not self.survey_questions:
+            raise ValueError("Must call question_lookup_dict first")
+            
+        if question not in self.survey_questions:
+            raise KeyError(f"Question '{question}' not found")
+            
         response_rows = []
         with open(self.survey_results, 'r', newline='', encoding='utf-8', errors='replace') as f:
             reader = csv.DictReader(f)
-        
-            #question_keys = list(question_lookup.keys())
-        
             for row in reader:
-                response = self.survey_questions.get(question).get('variable')
-                res_row = {"Question":question,"Response":self.survey_questions.get(question).get('responses').get(response)}
-                response_rows.append(res_row)
+                var = self.survey_questions[question]['variable']
+                response = row.get(var)
+                if response:
+                    res_row = {
+                        "Question": question,
+                        "Response": self.survey_questions[question]['responses'].get(response)
+                    }
+                    response_rows.append(res_row)
         return pd.DataFrame(response_rows)
     
     def vizualize_results(
@@ -121,14 +141,13 @@ class SurveyTool():
             width=600
         )
         return fig
-        
-    
-        
-
-        
 
 
 
 
-    
-    
+
+
+
+
+
+

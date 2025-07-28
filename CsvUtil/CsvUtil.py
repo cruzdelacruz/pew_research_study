@@ -12,13 +12,18 @@ class CsvUtil():
     
     def fill_forward(self,
                      col_name: str
-    ):
+    ) -> Path:
         """Perform a fill forward on a column
 
         Args:
             col_name (str): column that you want to fill forward
+
         Returns:
-            None: prints success message if new forward filled csv is written
+            Path: Path to the output file
+
+        Raises:
+            ValueError: If column name is invalid
+            IOError: If there are issues reading/writing files
         """
         new_rows = []
         with self.path_to_csv.open('r', newline='', encoding='utf-8', errors='replace') as csv_file:
@@ -32,7 +37,7 @@ class CsvUtil():
             }
             last_known_value = None
             for row in reader:
-                value_to_ffill = row.get(col_name)
+                value_to_ffill = row[header_map[col_name]]
                 if not pd.isna(value_to_ffill):
                     last_known_value = value_to_ffill
                 else:
@@ -49,15 +54,18 @@ class CsvUtil():
             print(e)
             return
         print(f'Wrote {output_filepath}')
+        return output_filepath
+
     def to_dict(
             self
-    ):
-        """Retrun CSV file as a python list of dicts
+    ) -> list[dict]:
+        """Return CSV file as a python list of dicts
+        
+        Returns:
+            list[dict]: List of dictionaries representing CSV rows
+            
+        Raises:
+            IOError: If there are issues reading the file
         """
-        try:
-            with self.path_to_csv.open('r', newline='', encoding='utf-8') as csv_file:
-                data = list(csv.DictReader(csv_file))
-        except Exception as e:
-            print(e)
-            return
-        return data
+        with self.path_to_csv.open('r', newline='', encoding='utf-8') as csv_file:
+            return list(csv.DictReader(csv_file))
