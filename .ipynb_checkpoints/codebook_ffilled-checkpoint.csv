@@ -1,0 +1,472 @@
+Variable,Variable_Label,Values,Value_Labels
+QKEY,Unique ID,101437,Min. Val.
+QKEY,Unique ID,2.02301e+11,Max. Val
+INTERVIEW_START_W139,Interview start time,2023-11-27 19:50:47,Min. Val.
+INTERVIEW_START_W139,Interview start time,2023-12-03 23:30:24,Max. Val
+INTERVIEW_END_W139,Interview end time,2023-11-27 19:56:10,Min. Val.
+INTERVIEW_END_W139,Interview end time,2023-12-03 23:36:00,Max. Val
+DEVICE_TYPE_W139,The device used in the latest access of the survey link,1,Laptop/PC
+DEVICE_TYPE_W139,The device used in the latest access of the survey link,2,Smartphone
+DEVICE_TYPE_W139,The device used in the latest access of the survey link,3,Tablet
+DEVICE_TYPE_W139,The device used in the latest access of the survey link,4,SmartTV
+DEVICE_TYPE_W139,The device used in the latest access of the survey link,5,None of the above
+LANG_W139, Language of interview,1,English
+LANG_W139, Language of interview,2,Spanish
+FORM_W139,Wave 139 form assignment,1,Form 1
+FORM_W139,Wave 139 form assignment,2,Form 2
+XPARTYSUMFINAL_W139,"Flag to identify Republicans, Republican leaners and non-leaners.",1,Rep/Lean Rep
+XPARTYSUMFINAL_W139,"Flag to identify Republicans, Republican leaners and non-leaners.",2,Dem/Lean Dem
+XPARTYSUMFINAL_W139,"Flag to identify Republicans, Republican leaners and non-leaners.",9,DK/Refused/No lean
+XREG_W139,Flag to identify registered voters,1,Registered to vote (as of W133)
+XREG_W139,Flag to identify registered voters,2,Not registered to vote (as of W133)
+SATIS_W139,"All in all, are you satisfied or dissatisfied with the way things are going in this country today?",1,Satisfied
+SATIS_W139,"All in all, are you satisfied or dissatisfied with the way things are going in this country today?",2,Dissatisfied
+SATIS_W139,"All in all, are you satisfied or dissatisfied with the way things are going in this country today?",99,Refused
+POL1JB_W139,Do you approve or disapprove of the way Joe Biden is handling his job as president?,1,Approve
+POL1JB_W139,Do you approve or disapprove of the way Joe Biden is handling his job as president?,2,Disapprove
+POL1JB_W139,Do you approve or disapprove of the way Joe Biden is handling his job as president?,99,Refused
+POL1JBSTR_W139,Do you [approve/disapprove] of the way Joe Biden is handling his job as president…,1,Very strongly
+POL1JBSTR_W139,Do you [approve/disapprove] of the way Joe Biden is handling his job as president…,2,Not so strongly
+POL1JBSTR_W139,Do you [approve/disapprove] of the way Joe Biden is handling his job as president…,99,Refused
+INSTFAV_a_W139,The Republican Party // Do you have a favorable or unfavorable opinion of each of the following?,1,Very favorable
+INSTFAV_a_W139,The Republican Party // Do you have a favorable or unfavorable opinion of each of the following?,2,Mostly favorable
+INSTFAV_a_W139,The Republican Party // Do you have a favorable or unfavorable opinion of each of the following?,3,Mostly unfavorable
+INSTFAV_a_W139,The Republican Party // Do you have a favorable or unfavorable opinion of each of the following?,4,Very unfavorable
+INSTFAV_a_W139,The Republican Party // Do you have a favorable or unfavorable opinion of each of the following?,99,Refused
+INSTFAV_b_W139,The Democratic Party // Do you have a favorable or unfavorable opinion of each of the following?,1,Very favorable
+INSTFAV_b_W139,The Democratic Party // Do you have a favorable or unfavorable opinion of each of the following?,2,Mostly favorable
+INSTFAV_b_W139,The Democratic Party // Do you have a favorable or unfavorable opinion of each of the following?,3,Mostly unfavorable
+INSTFAV_b_W139,The Democratic Party // Do you have a favorable or unfavorable opinion of each of the following?,4,Very unfavorable
+INSTFAV_b_W139,The Democratic Party // Do you have a favorable or unfavorable opinion of each of the following?,99,Refused
+INSTFAV_c_W139,Congress // Do you have a favorable or unfavorable opinion of each of the following?,1,Very favorable
+INSTFAV_c_W139,Congress // Do you have a favorable or unfavorable opinion of each of the following?,2,Mostly favorable
+INSTFAV_c_W139,Congress // Do you have a favorable or unfavorable opinion of each of the following?,3,Mostly unfavorable
+INSTFAV_c_W139,Congress // Do you have a favorable or unfavorable opinion of each of the following?,4,Very unfavorable
+INSTFAV_c_W139,Congress // Do you have a favorable or unfavorable opinion of each of the following?,99,Refused
+INSTFAV_FED_W139,The federal government in Washington // Do you have a favorable or unfavorable opinion of each of the following?,1,Very favorable
+INSTFAV_FED_W139,The federal government in Washington // Do you have a favorable or unfavorable opinion of each of the following?,2,Mostly favorable
+INSTFAV_FED_W139,The federal government in Washington // Do you have a favorable or unfavorable opinion of each of the following?,3,Mostly unfavorable
+INSTFAV_FED_W139,The federal government in Washington // Do you have a favorable or unfavorable opinion of each of the following?,4,Very unfavorable
+INSTFAV_FED_W139,The federal government in Washington // Do you have a favorable or unfavorable opinion of each of the following?,99,Refused
+INSTFAV_STAT_W139,Your STATE government // Do you have a favorable or unfavorable opinion of each of the following?,1,Very favorable
+INSTFAV_STAT_W139,Your STATE government // Do you have a favorable or unfavorable opinion of each of the following?,2,Mostly favorable
+INSTFAV_STAT_W139,Your STATE government // Do you have a favorable or unfavorable opinion of each of the following?,3,Mostly unfavorable
+INSTFAV_STAT_W139,Your STATE government // Do you have a favorable or unfavorable opinion of each of the following?,4,Very unfavorable
+INSTFAV_STAT_W139,Your STATE government // Do you have a favorable or unfavorable opinion of each of the following?,99,Refused
+INSTFAV_LOC_W139,Your LOCAL government // Do you have a favorable or unfavorable opinion of each of the following?,1,Very favorable
+INSTFAV_LOC_W139,Your LOCAL government // Do you have a favorable or unfavorable opinion of each of the following?,2,Mostly favorable
+INSTFAV_LOC_W139,Your LOCAL government // Do you have a favorable or unfavorable opinion of each of the following?,3,Mostly unfavorable
+INSTFAV_LOC_W139,Your LOCAL government // Do you have a favorable or unfavorable opinion of each of the following?,4,Very unfavorable
+INSTFAV_LOC_W139,Your LOCAL government // Do you have a favorable or unfavorable opinion of each of the following?,99,Refused
+JBCONF_ECON_W139,"Make good decisions about economic policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",1,Very confident
+JBCONF_ECON_W139,"Make good decisions about economic policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",2,Somewhat confident
+JBCONF_ECON_W139,"Make good decisions about economic policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",3,Not too confident
+JBCONF_ECON_W139,"Make good decisions about economic policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",4,Not at all confident
+JBCONF_ECON_W139,"Make good decisions about economic policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",99,Refused
+JBCONF_CRIS_W139,"Handle an international crisis // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",1,Very confident
+JBCONF_CRIS_W139,"Handle an international crisis // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",2,Somewhat confident
+JBCONF_CRIS_W139,"Handle an international crisis // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",3,Not too confident
+JBCONF_CRIS_W139,"Handle an international crisis // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",4,Not at all confident
+JBCONF_CRIS_W139,"Handle an international crisis // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",99,Refused
+JBCONF_IMMI_W139,"Make wise decisions about immigration policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",1,Very confident
+JBCONF_IMMI_W139,"Make wise decisions about immigration policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",2,Somewhat confident
+JBCONF_IMMI_W139,"Make wise decisions about immigration policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",3,Not too confident
+JBCONF_IMMI_W139,"Make wise decisions about immigration policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",4,Not at all confident
+JBCONF_IMMI_W139,"Make wise decisions about immigration policy // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",99,Refused
+JBCONF_CONG_W139,"Work effectively with Congress // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",1,Very confident
+JBCONF_CONG_W139,"Work effectively with Congress // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",2,Somewhat confident
+JBCONF_CONG_W139,"Work effectively with Congress // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",3,Not too confident
+JBCONF_CONG_W139,"Work effectively with Congress // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",4,Not at all confident
+JBCONF_CONG_W139,"Work effectively with Congress // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",99,Refused
+JBCONF_CLSR_W139,"Bring the country closer together // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",1,Very confident
+JBCONF_CLSR_W139,"Bring the country closer together // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",2,Somewhat confident
+JBCONF_CLSR_W139,"Bring the country closer together // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",3,Not too confident
+JBCONF_CLSR_W139,"Bring the country closer together // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",4,Not at all confident
+JBCONF_CLSR_W139,"Bring the country closer together // Thinking about Joe Biden’s ability to handle a number of things, how confident are you that Joe Biden can do each of the following?",99,Refused
+ISGZ_BDN_W139,Do you approve or disapprove of the Biden administration’s response to the Israel-Hamas war?,1,Strongly approve
+ISGZ_BDN_W139,Do you approve or disapprove of the Biden administration’s response to the Israel-Hamas war?,2,Somewhat approve
+ISGZ_BDN_W139,Do you approve or disapprove of the Biden administration’s response to the Israel-Hamas war?,3,Somewhat disapprove
+ISGZ_BDN_W139,Do you approve or disapprove of the Biden administration’s response to the Israel-Hamas war?,4,Strongly disapprove
+ISGZ_BDN_W139,Do you approve or disapprove of the Biden administration’s response to the Israel-Hamas war?,5,Not sure
+ISGZ_BDN_W139,Do you approve or disapprove of the Biden administration’s response to the Israel-Hamas war?,99,Refused
+REPFIELD_W139,"Overall, what`s your impression of the candidates running for the Republican presidential nomination? AS A GROUP, would you say the candidates are…",1,Excellent
+REPFIELD_W139,"Overall, what`s your impression of the candidates running for the Republican presidential nomination? AS A GROUP, would you say the candidates are…",2,Good
+REPFIELD_W139,"Overall, what`s your impression of the candidates running for the Republican presidential nomination? AS A GROUP, would you say the candidates are…",3,Only fair
+REPFIELD_W139,"Overall, what`s your impression of the candidates running for the Republican presidential nomination? AS A GROUP, would you say the candidates are…",4,Poor
+REPFIELD_W139,"Overall, what`s your impression of the candidates running for the Republican presidential nomination? AS A GROUP, would you say the candidates are…",99,Refused
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",1,Doug Burgum
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",2,Chris Christie
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",3,Ron DeSantis
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",4,Nikki Haley
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",5,Asa Hutchinson
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",6,"Robert F. Kennedy, Jr."
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",7,Vivek Ramaswamy
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",8,Donald Trump
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",25,Joe Biden
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",95,Undecided
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",96,Anyone
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",97,No one
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",98,Other
+REPNOMOE_CODED_W139,"Thinking about the 2024 presidential election, who would be your first choice for the Republican nomination for president?    Coded first choice",99,Refused/NA
+PRICANDSAT_R_DT_W139,"Donald Trump // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",1,Very satisfied
+PRICANDSAT_R_DT_W139,"Donald Trump // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",2,Somewhat satisfied
+PRICANDSAT_R_DT_W139,"Donald Trump // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",3,Somewhat dissatisfied
+PRICANDSAT_R_DT_W139,"Donald Trump // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",4,Very dissatisfied
+PRICANDSAT_R_DT_W139,"Donald Trump // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",5,Have not heard enough to say
+PRICANDSAT_R_DT_W139,"Donald Trump // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",99,Refused
+PRICANDSAT_R_RDS_W139,"Ron DeSantis // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",1,Very satisfied
+PRICANDSAT_R_RDS_W139,"Ron DeSantis // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",2,Somewhat satisfied
+PRICANDSAT_R_RDS_W139,"Ron DeSantis // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",3,Somewhat dissatisfied
+PRICANDSAT_R_RDS_W139,"Ron DeSantis // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",4,Very dissatisfied
+PRICANDSAT_R_RDS_W139,"Ron DeSantis // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",5,Have not heard enough to say
+PRICANDSAT_R_RDS_W139,"Ron DeSantis // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",99,Refused
+PRICANDSAT_R_CC_W139,"Chris Christie // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",1,Very satisfied
+PRICANDSAT_R_CC_W139,"Chris Christie // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",2,Somewhat satisfied
+PRICANDSAT_R_CC_W139,"Chris Christie // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",3,Somewhat dissatisfied
+PRICANDSAT_R_CC_W139,"Chris Christie // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",4,Very dissatisfied
+PRICANDSAT_R_CC_W139,"Chris Christie // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",5,Have not heard enough to say
+PRICANDSAT_R_CC_W139,"Chris Christie // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",99,Refused
+PRICANDSAT_R_VR_W139,"Vivek Ramaswamy // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",1,Very satisfied
+PRICANDSAT_R_VR_W139,"Vivek Ramaswamy // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",2,Somewhat satisfied
+PRICANDSAT_R_VR_W139,"Vivek Ramaswamy // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",3,Somewhat dissatisfied
+PRICANDSAT_R_VR_W139,"Vivek Ramaswamy // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",4,Very dissatisfied
+PRICANDSAT_R_VR_W139,"Vivek Ramaswamy // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",5,Have not heard enough to say
+PRICANDSAT_R_VR_W139,"Vivek Ramaswamy // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",99,Refused
+PRICANDSAT_R_NH_W139,"Nikki Haley // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",1,Very satisfied
+PRICANDSAT_R_NH_W139,"Nikki Haley // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",2,Somewhat satisfied
+PRICANDSAT_R_NH_W139,"Nikki Haley // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",3,Somewhat dissatisfied
+PRICANDSAT_R_NH_W139,"Nikki Haley // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",4,Very dissatisfied
+PRICANDSAT_R_NH_W139,"Nikki Haley // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",5,Have not heard enough to say
+PRICANDSAT_R_NH_W139,"Nikki Haley // Regardless of who your first choice is, how would you feel if each of the following became the Republican nominee in 2024?",99,Refused
+REPDEALFGHT_W139,"Which is more important to you in a Republican presidential candidate? Someone who, if elected president, will focus on…",1,"Finding common ground with Democrats on policies, even if it means giving up some things Republicans want"
+REPDEALFGHT_W139,"Which is more important to you in a Republican presidential candidate? Someone who, if elected president, will focus on…",2,"Pushing hard for policies Republicans want, even if it makes it much harder to get some things done"
+REPDEALFGHT_W139,"Which is more important to you in a Republican presidential candidate? Someone who, if elected president, will focus on…",99,Refused
+PRMRYSYT_W139,"Overall, how good a job do you think next year’s caucuses and primaries will do at selecting the best Republican candidate for the general election?",1,Very good job
+PRMRYSYT_W139,"Overall, how good a job do you think next year’s caucuses and primaries will do at selecting the best Republican candidate for the general election?",2,Somewhat good job
+PRMRYSYT_W139,"Overall, how good a job do you think next year’s caucuses and primaries will do at selecting the best Republican candidate for the general election?",3,Somewhat bad job
+PRMRYSYT_W139,"Overall, how good a job do you think next year’s caucuses and primaries will do at selecting the best Republican candidate for the general election?",4,Very bad job
+PRMRYSYT_W139,"Overall, how good a job do you think next year’s caucuses and primaries will do at selecting the best Republican candidate for the general election?",99,Refused
+REPPRI_FCS_W139,"So far, would you say the campaign for the Republican nomination has been…",1,Focused on the right issues
+REPPRI_FCS_W139,"So far, would you say the campaign for the Republican nomination has been…",2,Not focused on the right issues
+REPPRI_FCS_W139,"So far, would you say the campaign for the Republican nomination has been…",99,Refused
+REPPRIMINT_W139,"So far, would you say the campaign for the Republican nomination has been…",1,Interesting
+REPPRIMINT_W139,"So far, would you say the campaign for the Republican nomination has been…",2,Dull
+REPPRIMINT_W139,"So far, would you say the campaign for the Republican nomination has been…",99,Refused
+REPPRIMCOMP_W139,"From what you’ve read or heard, do you think the competition for the Republican nomination in 2024 will be…",1,A close race
+REPPRIMCOMP_W139,"From what you’ve read or heard, do you think the competition for the Republican nomination in 2024 will be…",2,Not a close race
+REPPRIMCOMP_W139,"From what you’ve read or heard, do you think the competition for the Republican nomination in 2024 will be…",99,Refused
+UKRFOL_W139,How closely have you been following news about Russia’s invasion of Ukraine?,1,Extremely closely
+UKRFOL_W139,How closely have you been following news about Russia’s invasion of Ukraine?,2,Very closely
+UKRFOL_W139,How closely have you been following news about Russia’s invasion of Ukraine?,3,Somewhat closely
+UKRFOL_W139,How closely have you been following news about Russia’s invasion of Ukraine?,4,Not too closely
+UKRFOL_W139,How closely have you been following news about Russia’s invasion of Ukraine?,5,Not at all closely
+UKRFOL_W139,How closely have you been following news about Russia’s invasion of Ukraine?,99,Refused
+JB_RUSUKR_APP_W139,Do you approve or disapprove of the Biden administration’s response to Russia’s invasion of Ukraine?,1,Strongly approve
+JB_RUSUKR_APP_W139,Do you approve or disapprove of the Biden administration’s response to Russia’s invasion of Ukraine?,2,Somewhat approve
+JB_RUSUKR_APP_W139,Do you approve or disapprove of the Biden administration’s response to Russia’s invasion of Ukraine?,3,Somewhat disapprove
+JB_RUSUKR_APP_W139,Do you approve or disapprove of the Biden administration’s response to Russia’s invasion of Ukraine?,4,Strongly disapprove
+JB_RUSUKR_APP_W139,Do you approve or disapprove of the Biden administration’s response to Russia’s invasion of Ukraine?,5,Not sure
+JB_RUSUKR_APP_W139,Do you approve or disapprove of the Biden administration’s response to Russia’s invasion of Ukraine?,99,Refused
+UKR_SPRT_W139,"When it comes to Russia’s invasion of Ukraine, do you think the U.S. is providing…",1,Too much support to Ukraine
+UKR_SPRT_W139,"When it comes to Russia’s invasion of Ukraine, do you think the U.S. is providing…",2,Not enough support to Ukraine
+UKR_SPRT_W139,"When it comes to Russia’s invasion of Ukraine, do you think the U.S. is providing…",3,About the right amount of support to Ukraine
+UKR_SPRT_W139,"When it comes to Russia’s invasion of Ukraine, do you think the U.S. is providing…",4,Not sure
+UKR_SPRT_W139,"When it comes to Russia’s invasion of Ukraine, do you think the U.S. is providing…",99,Refused
+RU_UKN_THRT2_W139,How much of a threat to U.S. interests is Russia’s invasion of Ukraine?,1,A major threat
+RU_UKN_THRT2_W139,How much of a threat to U.S. interests is Russia’s invasion of Ukraine?,2,A minor threat
+RU_UKN_THRT2_W139,How much of a threat to U.S. interests is Russia’s invasion of Ukraine?,3,Not a threat
+RU_UKN_THRT2_W139,How much of a threat to U.S. interests is Russia’s invasion of Ukraine?,4,Not sure
+RU_UKN_THRT2_W139,How much of a threat to U.S. interests is Russia’s invasion of Ukraine?,99,Refused
+PARTYTRAITH2H_FED_W139,Can effectively manage the federal government // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,1,The Republican Party
+PARTYTRAITH2H_FED_W139,Can effectively manage the federal government // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,2,The Democratic Party
+PARTYTRAITH2H_FED_W139,Can effectively manage the federal government // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,3,No difference between the parties
+PARTYTRAITH2H_FED_W139,Can effectively manage the federal government // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,99,Refused
+PARTYTRAITH2H_WORK_W139,Is willing to work with political leaders from the other party // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,1,The Republican Party
+PARTYTRAITH2H_WORK_W139,Is willing to work with political leaders from the other party // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,2,The Democratic Party
+PARTYTRAITH2H_WORK_W139,Is willing to work with political leaders from the other party // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,3,No difference between the parties
+PARTYTRAITH2H_WORK_W139,Is willing to work with political leaders from the other party // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,99,Refused
+PARTYTRAITH2H_PLM_W139,Is concerned with the needs of people like me // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,1,The Republican Party
+PARTYTRAITH2H_PLM_W139,Is concerned with the needs of people like me // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,2,The Democratic Party
+PARTYTRAITH2H_PLM_W139,Is concerned with the needs of people like me // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,3,No difference between the parties
+PARTYTRAITH2H_PLM_W139,Is concerned with the needs of people like me // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,99,Refused
+PARTYTRAITH2H_SEL_W139,Selects good candidates for office // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,1,The Republican Party
+PARTYTRAITH2H_SEL_W139,Selects good candidates for office // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,2,The Democratic Party
+PARTYTRAITH2H_SEL_W139,Selects good candidates for office // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,3,No difference between the parties
+PARTYTRAITH2H_SEL_W139,Selects good candidates for office // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,99,Refused
+PARTYTRAITH2H_HON_W139,Governs in an honest and ethical way // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,1,The Republican Party
+PARTYTRAITH2H_HON_W139,Governs in an honest and ethical way // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,2,The Democratic Party
+PARTYTRAITH2H_HON_W139,Governs in an honest and ethical way // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,3,No difference between the parties
+PARTYTRAITH2H_HON_W139,Governs in an honest and ethical way // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,99,Refused
+PARTYTRAITH2H_UNI_W139,Tries to unite the country // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,1,The Republican Party
+PARTYTRAITH2H_UNI_W139,Tries to unite the country // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,2,The Democratic Party
+PARTYTRAITH2H_UNI_W139,Tries to unite the country // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,3,No difference between the parties
+PARTYTRAITH2H_UNI_W139,Tries to unite the country // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,99,Refused
+PARTYTRAITH2H_LEAD_W139,Has effective leaders in Congress // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,1,The Republican Party
+PARTYTRAITH2H_LEAD_W139,Has effective leaders in Congress // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,2,The Democratic Party
+PARTYTRAITH2H_LEAD_W139,Has effective leaders in Congress // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,3,No difference between the parties
+PARTYTRAITH2H_LEAD_W139,Has effective leaders in Congress // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,99,Refused
+PARTYTRAITH2H_MID_W139,Is concerned with the needs of middle-class people // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,1,The Republican Party
+PARTYTRAITH2H_MID_W139,Is concerned with the needs of middle-class people // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,2,The Democratic Party
+PARTYTRAITH2H_MID_W139,Is concerned with the needs of middle-class people // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,3,No difference between the parties
+PARTYTRAITH2H_MID_W139,Is concerned with the needs of middle-class people // Thinking about the Republican and Democratic parties… Which party do you think is better described by each of the following phrases?,99,Refused
+ISGZ_FOL_W139,How closely have you been following news about the Israel-Hamas war?,1,Extremely closely
+ISGZ_FOL_W139,How closely have you been following news about the Israel-Hamas war?,2,Very closely
+ISGZ_FOL_W139,How closely have you been following news about the Israel-Hamas war?,3,Somewhat closely
+ISGZ_FOL_W139,How closely have you been following news about the Israel-Hamas war?,4,Not too closely
+ISGZ_FOL_W139,How closely have you been following news about the Israel-Hamas war?,5,Not at all closely
+ISGZ_FOL_W139,How closely have you been following news about the Israel-Hamas war?,99,Refused
+ISGZ_RESPNSBL_ISRGOV_W139,Israeli government // How much responsibility do each of the following have for Israel and Hamas currently being at war?,1,A lot
+ISGZ_RESPNSBL_ISRGOV_W139,Israeli government // How much responsibility do each of the following have for Israel and Hamas currently being at war?,2,A little
+ISGZ_RESPNSBL_ISRGOV_W139,Israeli government // How much responsibility do each of the following have for Israel and Hamas currently being at war?,3,nan
+ISGZ_RESPNSBL_ISRGOV_W139,Israeli government // How much responsibility do each of the following have for Israel and Hamas currently being at war?,5,Not sure
+ISGZ_RESPNSBL_ISRGOV_W139,Israeli government // How much responsibility do each of the following have for Israel and Hamas currently being at war?,99,Refused
+ISGZ_RESPNSBL_HMS_W139,"Hamas, the militant Palestinian group // How much responsibility do each of the following have for Israel and Hamas currently being at war?",1,A lot
+ISGZ_RESPNSBL_HMS_W139,"Hamas, the militant Palestinian group // How much responsibility do each of the following have for Israel and Hamas currently being at war?",2,A little
+ISGZ_RESPNSBL_HMS_W139,"Hamas, the militant Palestinian group // How much responsibility do each of the following have for Israel and Hamas currently being at war?",3,nan
+ISGZ_RESPNSBL_HMS_W139,"Hamas, the militant Palestinian group // How much responsibility do each of the following have for Israel and Hamas currently being at war?",5,Not sure
+ISGZ_RESPNSBL_HMS_W139,"Hamas, the militant Palestinian group // How much responsibility do each of the following have for Israel and Hamas currently being at war?",99,Refused
+ISGZ_RESPNSBL_ISRPPL_W139,Israeli people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,1,A lot
+ISGZ_RESPNSBL_ISRPPL_W139,Israeli people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,2,A little
+ISGZ_RESPNSBL_ISRPPL_W139,Israeli people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,3,nan
+ISGZ_RESPNSBL_ISRPPL_W139,Israeli people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,5,Not sure
+ISGZ_RESPNSBL_ISRPPL_W139,Israeli people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,99,Refused
+ISGZ_RESPNSBL_PLS_W139,Palestinian people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,1,A lot
+ISGZ_RESPNSBL_PLS_W139,Palestinian people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,2,A little
+ISGZ_RESPNSBL_PLS_W139,Palestinian people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,3,nan
+ISGZ_RESPNSBL_PLS_W139,Palestinian people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,5,Not sure
+ISGZ_RESPNSBL_PLS_W139,Palestinian people // How much responsibility do each of the following have for Israel and Hamas currently being at war?,99,Refused
+ISGZ_RESPNS_W139,"Thinking about Israel’s current military operation against Hamas, is Israel…",1,Going too far
+ISGZ_RESPNS_W139,"Thinking about Israel’s current military operation against Hamas, is Israel…",2,Not going far enough
+ISGZ_RESPNS_W139,"Thinking about Israel’s current military operation against Hamas, is Israel…",3,Taking about the right approach
+ISGZ_RESPNS_W139,"Thinking about Israel’s current military operation against Hamas, is Israel…",4,Not sure
+ISGZ_RESPNS_W139,"Thinking about Israel’s current military operation against Hamas, is Israel…",99,Refused
+BIDEN_FAVORISRPAL_W139,Do you think Joe Biden is…,1,Favoring the Israelis too much
+BIDEN_FAVORISRPAL_W139,Do you think Joe Biden is…,2,Favoring the Palestinians too much
+BIDEN_FAVORISRPAL_W139,Do you think Joe Biden is…,3,Striking about the right balance
+BIDEN_FAVORISRPAL_W139,Do you think Joe Biden is…,4,Not sure
+BIDEN_FAVORISRPAL_W139,Do you think Joe Biden is…,99,Refused
+ISGZ_CONC_BIG_W139,"The war expanding to other countries in the region // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",1,Extremely concerned
+ISGZ_CONC_BIG_W139,"The war expanding to other countries in the region // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",2,Very concerned
+ISGZ_CONC_BIG_W139,"The war expanding to other countries in the region // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",3,Somewhat concerned
+ISGZ_CONC_BIG_W139,"The war expanding to other countries in the region // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",4,Not too concerned
+ISGZ_CONC_BIG_W139,"The war expanding to other countries in the region // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",5,Not at all concerned
+ISGZ_CONC_BIG_W139,"The war expanding to other countries in the region // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",99,Refused
+ISGZ_CONC_TERR_W139,"The war leading to a terrorist attack in the United States // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",1,Extremely concerned
+ISGZ_CONC_TERR_W139,"The war leading to a terrorist attack in the United States // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",2,Very concerned
+ISGZ_CONC_TERR_W139,"The war leading to a terrorist attack in the United States // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",3,Somewhat concerned
+ISGZ_CONC_TERR_W139,"The war leading to a terrorist attack in the United States // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",4,Not too concerned
+ISGZ_CONC_TERR_W139,"The war leading to a terrorist attack in the United States // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",5,Not at all concerned
+ISGZ_CONC_TERR_W139,"The war leading to a terrorist attack in the United States // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",99,Refused
+ISGZ_CONC_RSLV_W139,"The war going on for a very long time // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",1,Extremely concerned
+ISGZ_CONC_RSLV_W139,"The war going on for a very long time // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",2,Very concerned
+ISGZ_CONC_RSLV_W139,"The war going on for a very long time // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",3,Somewhat concerned
+ISGZ_CONC_RSLV_W139,"The war going on for a very long time // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",4,Not too concerned
+ISGZ_CONC_RSLV_W139,"The war going on for a very long time // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",5,Not at all concerned
+ISGZ_CONC_RSLV_W139,"The war going on for a very long time // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",99,Refused
+ISGZ_CONC_VLC_JW_W139,"Increasing violence against Jewish people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",1,Extremely concerned
+ISGZ_CONC_VLC_JW_W139,"Increasing violence against Jewish people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",2,Very concerned
+ISGZ_CONC_VLC_JW_W139,"Increasing violence against Jewish people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",3,Somewhat concerned
+ISGZ_CONC_VLC_JW_W139,"Increasing violence against Jewish people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",4,Not too concerned
+ISGZ_CONC_VLC_JW_W139,"Increasing violence against Jewish people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",5,Not at all concerned
+ISGZ_CONC_VLC_JW_W139,"Increasing violence against Jewish people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",99,Refused
+ISGZ_CONC_VLC_MSLM_W139,"Increasing violence against Muslim people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",1,Extremely concerned
+ISGZ_CONC_VLC_MSLM_W139,"Increasing violence against Muslim people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",2,Very concerned
+ISGZ_CONC_VLC_MSLM_W139,"Increasing violence against Muslim people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",3,Somewhat concerned
+ISGZ_CONC_VLC_MSLM_W139,"Increasing violence against Muslim people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",4,Not too concerned
+ISGZ_CONC_VLC_MSLM_W139,"Increasing violence against Muslim people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",5,Not at all concerned
+ISGZ_CONC_VLC_MSLM_W139,"Increasing violence against Muslim people in the U.S. // Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?",99,Refused
+COEX_W139,"Now, thinking about the future, and not just the current conflict… Do you think a way can be found for Israel and an independent Palestinian state to coexist peacefully with each other?",1,"Yes, can coexist peacefully"
+COEX_W139,"Now, thinking about the future, and not just the current conflict… Do you think a way can be found for Israel and an independent Palestinian state to coexist peacefully with each other?",2,"No, cannot coexist peacefully"
+COEX_W139,"Now, thinking about the future, and not just the current conflict… Do you think a way can be found for Israel and an independent Palestinian state to coexist peacefully with each other?",99,Refused
+COLGJOB_W139,How important do you think it is for someone to have a four-year college degree in order to get a well-paying job in today’s economy?,1,Extremely important
+COLGJOB_W139,How important do you think it is for someone to have a four-year college degree in order to get a well-paying job in today’s economy?,2,Very important
+COLGJOB_W139,How important do you think it is for someone to have a four-year college degree in order to get a well-paying job in today’s economy?,3,Somewhat important
+COLGJOB_W139,How important do you think it is for someone to have a four-year college degree in order to get a well-paying job in today’s economy?,4,Not too important
+COLGJOB_W139,How important do you think it is for someone to have a four-year college degree in order to get a well-paying job in today’s economy?,5,Not at all important
+COLGJOB_W139,How important do you think it is for someone to have a four-year college degree in order to get a well-paying job in today’s economy?,99,Refused
+COLGIMP_W139,"Compared to 20 years ago, how important would you say it is for someone to have a four-year college degree in order to get a well-paying job?",1,More important today than 20 years ago
+COLGIMP_W139,"Compared to 20 years ago, how important would you say it is for someone to have a four-year college degree in order to get a well-paying job?",2,Less important today than 20 years ago
+COLGIMP_W139,"Compared to 20 years ago, how important would you say it is for someone to have a four-year college degree in order to get a well-paying job?",3,About as important
+COLGIMP_W139,"Compared to 20 years ago, how important would you say it is for someone to have a four-year college degree in order to get a well-paying job?",99,Refused
+EDUCJOB_W139,"Overall, how useful was your education in giving you the skills and knowledge you needed to get a well-paying job?",1,Extremely useful
+EDUCJOB_W139,"Overall, how useful was your education in giving you the skills and knowledge you needed to get a well-paying job?",2,Very useful
+EDUCJOB_W139,"Overall, how useful was your education in giving you the skills and knowledge you needed to get a well-paying job?",3,Somewhat useful
+EDUCJOB_W139,"Overall, how useful was your education in giving you the skills and knowledge you needed to get a well-paying job?",4,Not too useful
+EDUCJOB_W139,"Overall, how useful was your education in giving you the skills and knowledge you needed to get a well-paying job?",5,Not at all useful
+EDUCJOB_W139,"Overall, how useful was your education in giving you the skills and knowledge you needed to get a well-paying job?",6,Not applicable
+EDUCJOB_W139,"Overall, how useful was your education in giving you the skills and knowledge you needed to get a well-paying job?",99,Refused
+DEGRCOST_W139,"Thinking about the cost of getting a four-year college degree today, would you say it is…",1,"Worth it, even if someone has to take out loans in order to attend"
+DEGRCOST_W139,"Thinking about the cost of getting a four-year college degree today, would you say it is…",2,"Worth it, but only if someone doesn't have to take out loans in order to attend"
+DEGRCOST_W139,"Thinking about the cost of getting a four-year college degree today, would you say it is…",3,Not worth it
+DEGRCOST_W139,"Thinking about the cost of getting a four-year college degree today, would you say it is…",99,Refused
+NDEGRJOB_W139,How likely is it that someone who does not have a four-year college degree could get a well-paying job in today’s economy?,1,Extremely likely
+NDEGRJOB_W139,How likely is it that someone who does not have a four-year college degree could get a well-paying job in today’s economy?,2,Very likely
+NDEGRJOB_W139,How likely is it that someone who does not have a four-year college degree could get a well-paying job in today’s economy?,3,Somewhat likely
+NDEGRJOB_W139,How likely is it that someone who does not have a four-year college degree could get a well-paying job in today’s economy?,4,Not too likely
+NDEGRJOB_W139,How likely is it that someone who does not have a four-year college degree could get a well-paying job in today’s economy?,5,Not at all likely
+NDEGRJOB_W139,How likely is it that someone who does not have a four-year college degree could get a well-paying job in today’s economy?,99,Refused
+DTREPPTY_W139,"Finally… Since he entered politics, has Donald Trump’s impact on the Republican Party been…",1,Very positive
+DTREPPTY_W139,"Finally… Since he entered politics, has Donald Trump’s impact on the Republican Party been…",2,Somewhat positive
+DTREPPTY_W139,"Finally… Since he entered politics, has Donald Trump’s impact on the Republican Party been…",3,Neither positive nor negative
+DTREPPTY_W139,"Finally… Since he entered politics, has Donald Trump’s impact on the Republican Party been…",4,Somewhat negative
+DTREPPTY_W139,"Finally… Since he entered politics, has Donald Trump’s impact on the Republican Party been…",5,Very negative
+DTREPPTY_W139,"Finally… Since he entered politics, has Donald Trump’s impact on the Republican Party been…",99,Refused
+F_METRO,Metropolitan area indicator,1,Metropolitan
+F_METRO,Metropolitan area indicator,2,Non-metropolitan
+F_CREGION,Census region,1,Northeast
+F_CREGION,Census region,2,Midwest
+F_CREGION,Census region,3,South
+F_CREGION,Census region,4,West
+F_CDIVISION,Census division,1,New England
+F_CDIVISION,Census division,2,Middle Atlantic
+F_CDIVISION,Census division,3,East North Central
+F_CDIVISION,Census division,4,West North Central
+F_CDIVISION,Census division,5,South Atlantic
+F_CDIVISION,Census division,6,East South Central
+F_CDIVISION,Census division,7,West South Central
+F_CDIVISION,Census division,8,Mountain
+F_CDIVISION,Census division,9,Pacific
+F_USR_SELFID," Self-identified Urban, Suburban, Rural (USR)",1,Urban
+F_USR_SELFID," Self-identified Urban, Suburban, Rural (USR)",2,Suburban
+F_USR_SELFID," Self-identified Urban, Suburban, Rural (USR)",3,Rural
+F_USR_SELFID," Self-identified Urban, Suburban, Rural (USR)",99,Refused
+F_AGECAT,Age category,1,18-29
+F_AGECAT,Age category,2,30-49
+F_AGECAT,Age category,3,50-64
+F_AGECAT,Age category,4,65+
+F_AGECAT,Age category,99,Refused
+F_GENDER,Gender,1,A man
+F_GENDER,Gender,2,A woman
+F_GENDER,Gender,3,In some other way
+F_GENDER,Gender,99,Refused
+F_EDUCCAT,Education level category,1,College graduate+
+F_EDUCCAT,Education level category,2,Some College
+F_EDUCCAT,Education level category,3,H.S. graduate or less
+F_EDUCCAT,Education level category,99,Refused
+F_EDUCCAT2,Education level category 2,1,Less than high school
+F_EDUCCAT2,Education level category 2,2,High school graduate
+F_EDUCCAT2,Education level category 2,3,"Some college, no degree"
+F_EDUCCAT2,Education level category 2,4,Associate degree
+F_EDUCCAT2,Education level category 2,5,College graduate/some post grad
+F_EDUCCAT2,Education level category 2,6,Postgraduate
+F_EDUCCAT2,Education level category 2,99,Refused
+F_HISP,Hispanic identification,1,Yes
+F_HISP,Hispanic identification,2,No
+F_HISP,Hispanic identification,99,Refused
+F_HISP_ORIGIN,Hispanic origin,1,Mexican
+F_HISP_ORIGIN,Hispanic origin,2,Puerto Rican
+F_HISP_ORIGIN,Hispanic origin,3,Cuban
+F_HISP_ORIGIN,Hispanic origin,4,Dominican
+F_HISP_ORIGIN,Hispanic origin,5,Salvadoran
+F_HISP_ORIGIN,Hispanic origin,6,Spanish
+F_HISP_ORIGIN,Hispanic origin,7,Other Central American
+F_HISP_ORIGIN,Hispanic origin,8,Other South American
+F_HISP_ORIGIN,Hispanic origin,97,Other country
+F_HISP_ORIGIN,Hispanic origin,99,Refused
+F_YEARSINUS_RECODE,Years lived in the United States (excluding Puerto Rico or other U.S. territories) - 4 category,1,Born in US (not including unincorporated territories)
+F_YEARSINUS_RECODE,Years lived in the United States (excluding Puerto Rico or other U.S. territories) - 4 category,2,0-10 years
+F_YEARSINUS_RECODE,Years lived in the United States (excluding Puerto Rico or other U.S. territories) - 4 category,3,11-20 years
+F_YEARSINUS_RECODE,Years lived in the United States (excluding Puerto Rico or other U.S. territories) - 4 category,4,21+ years
+F_YEARSINUS_RECODE,Years lived in the United States (excluding Puerto Rico or other U.S. territories) - 4 category,99,DK/Ref
+F_RACECMB,Combining Race,1,White
+F_RACECMB,Combining Race,2,Black or African-American
+F_RACECMB,Combining Race,3,Asian or Asian-American
+F_RACECMB,Combining Race,4,Mixed Race
+F_RACECMB,Combining Race,5,Or some other race
+F_RACECMB,Combining Race,99,Refused
+F_RACETHNMOD,Race-Ethnicity,1,White non-Hispanic
+F_RACETHNMOD,Race-Ethnicity,2,Black non-Hispanic
+F_RACETHNMOD,Race-Ethnicity,3,Hispanic
+F_RACETHNMOD,Race-Ethnicity,4,Other
+F_RACETHNMOD,Race-Ethnicity,5,Asian non-Hispanic
+F_RACETHNMOD,Race-Ethnicity,99,Refused
+F_BIRTHPLACE,Birthplace,1,"U.S. – 50 states, District of Columbia"
+F_BIRTHPLACE,Birthplace,2,U.S. – Puerto Rico
+F_BIRTHPLACE,Birthplace,3,U.S. – other territory
+F_BIRTHPLACE,Birthplace,4,Another country
+F_BIRTHPLACE,Birthplace,99,Refused
+F_MARITAL,Marital status,1,Married
+F_MARITAL,Marital status,2,Living with a partner
+F_MARITAL,Marital status,3,Divorced
+F_MARITAL,Marital status,4,Separated
+F_MARITAL,Marital status,5,Widowed
+F_MARITAL,Marital status,6,Never been married
+F_MARITAL,Marital status,99,Refused
+F_RELIG,Religion,1,Protestant
+F_RELIG,Religion,2,Roman Catholic
+F_RELIG,Religion,3,Mormon (Church of Jesus Christ of Latter-day Saints or LDS)
+F_RELIG,Religion,4,"Orthodox (such as Greek, Russian, or some other Orthodox church)"
+F_RELIG,Religion,5,Jewish
+F_RELIG,Religion,6,Muslim
+F_RELIG,Religion,7,Buddhist
+F_RELIG,Religion,8,Hindu
+F_RELIG,Religion,9,Atheist
+F_RELIG,Religion,10,Agnostic
+F_RELIG,Religion,11,Other
+F_RELIG,Religion,12,Nothing in particular
+F_RELIG,Religion,99,Refused
+F_BORN,Born-again or evangelical Christian,1,"Yes, born-again or evangelical Christian"
+F_BORN,Born-again or evangelical Christian,2,"No, not born-again or evangelical Christian"
+F_BORN,Born-again or evangelical Christian,99,Refused
+F_RELIGCAT1,Condensed 4-way religion variable,1,Protestant
+F_RELIGCAT1,Condensed 4-way religion variable,2,Catholic
+F_RELIGCAT1,Condensed 4-way religion variable,3,Unaffiliated
+F_RELIGCAT1,Condensed 4-way religion variable,4,Other
+F_RELIGCAT1,Condensed 4-way religion variable,99,Refused
+F_ATTENDPER,Religious service attendance in person,1,More than once a week
+F_ATTENDPER,Religious service attendance in person,2,Once a week
+F_ATTENDPER,Religious service attendance in person,3,Once or twice a month
+F_ATTENDPER,Religious service attendance in person,4,A few times a year
+F_ATTENDPER,Religious service attendance in person,5,Seldom
+F_ATTENDPER,Religious service attendance in person,6,Never
+F_ATTENDPER,Religious service attendance in person,99,Refused
+F_PARTY_FINAL,Party,1,Republican
+F_PARTY_FINAL,Party,2,Democrat
+F_PARTY_FINAL,Party,3,Independent
+F_PARTY_FINAL,Party,4,Something else
+F_PARTY_FINAL,Party,99,Refused
+F_PARTYLN_FINAL,Party lean,1,The Republican Party
+F_PARTYLN_FINAL,Party lean,2,The Democratic Party
+F_PARTYLN_FINAL,Party lean,99,Refused
+F_PARTYSUM_FINAL,Party summary,1,Rep/Lean Rep
+F_PARTYSUM_FINAL,Party summary,2,Dem/Lean Dem
+F_PARTYSUM_FINAL,Party summary,9,DK/Refused/No lean
+F_PARTYSUMIDEO_FINAL,Combining ideology and party identification,1,Conservative Rep/Lean
+F_PARTYSUMIDEO_FINAL,Combining ideology and party identification,2,Moderate/Liberal Rep/Lean
+F_PARTYSUMIDEO_FINAL,Combining ideology and party identification,3,Moderate/Conservative Dem/Lean
+F_PARTYSUMIDEO_FINAL,Combining ideology and party identification,4,Liberal Dem/Lean
+F_PARTYSUMIDEO_FINAL,Combining ideology and party identification,9,Refused either F_IDEO or F_PARTYSUM_FINAL
+F_REG,REG.   Voter registration,1,You are ABSOLUTELY CERTAIN that you are registered to vote at your current address
+F_REG,REG.   Voter registration,2,"You are PROBABLY registered, but there is a chance your registration has lapsed"
+F_REG,REG.   Voter registration,3,You are NOT registered to vote at your current address/Refused/Missing
+F_INC_SDT1,Family income,1,"Less than $30,000"
+F_INC_SDT1,Family income,2,"$30,000 to less than $40,000"
+F_INC_SDT1,Family income,3,"$40,000 to less than $50,000"
+F_INC_SDT1,Family income,4,"$50,000 to less than $60,000"
+F_INC_SDT1,Family income,5,"$60,000 to less than $70,000"
+F_INC_SDT1,Family income,6,"$70,000 to less than $80,000"
+F_INC_SDT1,Family income,7,"$80,000 to less than $90,000"
+F_INC_SDT1,Family income,8,"$90,000 to less than $100,000"
+F_INC_SDT1,Family income,9,"$100,000 or more"
+F_INC_SDT1,Family income,99,Refused
+F_IDEO,Ideology,1,Very conservative
+F_IDEO,Ideology,2,Conservative
+F_IDEO,Ideology,3,Moderate
+F_IDEO,Ideology,4,Liberal
+F_IDEO,Ideology,5,Very liberal
+F_IDEO,Ideology,99,Refused
+F_INTFREQ,Frequency of internet use,1,Almost constantly
+F_INTFREQ,Frequency of internet use,2,Several times a day
+F_INTFREQ,Frequency of internet use,3,About once a day
+F_INTFREQ,Frequency of internet use,4,Several times a week
+F_INTFREQ,Frequency of internet use,5,Less often
+F_INTFREQ,Frequency of internet use,99,Refused
+F_VOLSUM,Volunteerism status,1,Yes
+F_VOLSUM,Volunteerism status,2,No
+F_VOLSUM,Volunteerism status,99,Refused
+F_INC_TIER2,Income tier 3-way,1,Lower income
+F_INC_TIER2,Income tier 3-way,2,Middle income
+F_INC_TIER2,Income tier 3-way,3,Upper income
+F_INC_TIER2,Income tier 3-way,99,Refused
+WEIGHT_W139,Wave 139 weight,0.02553506,Min. Val.
+WEIGHT_W139,Wave 139 weight,4.945435,Max. Val
