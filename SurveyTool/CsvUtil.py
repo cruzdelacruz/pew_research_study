@@ -20,10 +20,6 @@ class CsvUtil():
 
         Returns:
             Path: Path to the output file
-
-        Raises:
-            ValueError: If column name is invalid
-            IOError: If there are issues reading/writing files
         """
         new_rows = []
         with self.path_to_csv.open('r', newline='', encoding='utf-8', errors='replace') as csv_file:
@@ -38,7 +34,7 @@ class CsvUtil():
             last_known_value = None
             for row in reader:
                 value_to_ffill = row[header_map[col_name]]
-                if not pd.isna(value_to_ffill):
+                if not pd.isna(value_to_ffill) and value_to_ffill != "":
                     last_known_value = value_to_ffill
                 else:
                     row[header_map[col_name]] = last_known_value
@@ -46,15 +42,11 @@ class CsvUtil():
         
         output_filename = f'{self.path_to_csv.stem}_ffilled'
         output_filepath = self.path_to_csv.parent.joinpath(output_filename).with_suffix('.csv')
-        try:
-            with output_filepath.open('w', newline='', encoding='utf-8') as out_file:
-                writer = csv.writer(out_file)
-                writer.writerows(new_rows)
-        except Exception as e:
-            print(e)
-            return
+        with output_filepath.open('w', newline='', encoding='utf-8') as out_file:
+            writer = csv.writer(out_file)
+            writer.writerows(new_rows)
+        
         print(f'Wrote {output_filepath}')
-        return output_filepath
 
     def to_dict(
             self
@@ -63,9 +55,6 @@ class CsvUtil():
         
         Returns:
             list[dict]: List of dictionaries representing CSV rows
-            
-        Raises:
-            IOError: If there are issues reading the file
         """
         with self.path_to_csv.open('r', newline='', encoding='utf-8') as csv_file:
             return list(csv.DictReader(csv_file))

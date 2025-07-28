@@ -1,5 +1,5 @@
 from typing import Optional
-from CsvUtil import CsvUtil
+from SurveyTool.CsvUtil import CsvUtil
 from pathlib import Path
 import pandas as pd
 import csv
@@ -35,13 +35,9 @@ class SurveyTool():
     ):
         """Converts xlsx into a plain CSV for better processing
         """
-        try:
-            codebook_df = pd.read_excel(self.survey_codebook, sheet_name=None)
-            codebook_df.to_csv(self.survey_codebook.with_suffix('.csv'))
-            self.survey_codebook_csv = CsvUtil(self.survey_codebook.with_suffix('.csv'))
-        except Exception as e:
-            print(e)
-            return
+        codebook_df_dict = pd.read_excel(self.survey_codebook, sheet_name=None)
+        codebook_df_dict['Codebook'].to_csv(self.survey_codebook.with_suffix('.csv'))
+        self.survey_codebook_csv = CsvUtil(self.survey_codebook.with_suffix('.csv'))
         print(f'Succesfully wrote {self.survey_codebook.with_suffix('.csv')}')
     
     def question_lookup_dict(
@@ -54,12 +50,8 @@ class SurveyTool():
             excluded_variable_labels = []
 
         if self.survey_codebook_csv is None:
-            try:
-                self.codebook_to_csv()
-                codebook_dict = self.survey_codebook_csv.to_dict()
-            except Exception as e:
-                print(e)
-                return
+            self.codebook_to_csv()
+            codebook_dict = self.survey_codebook_csv.to_dict()
 
         for row in codebook_dict:
             variable_label = row.get(primary_header, None)
@@ -77,6 +69,7 @@ class SurveyTool():
                 if (val := str(row.get('Values'))) not in survey_questions[variable_label]['responses']:
                     survey_questions[variable_label]['responses'][val] = row.get('Value_Labels')
         self.survey_questions = survey_questions
+    
     def get_response(
             self,
             question: str
@@ -88,10 +81,6 @@ class SurveyTool():
             
         Returns:
             pd.DataFrame: DataFrame containing question and responses
-            
-        Raises:
-            KeyError: If question is not found
-            IOError: If there are issues reading the file
         """
         if not self.survey_questions:
             raise ValueError("Must call question_lookup_dict first")
@@ -117,11 +106,8 @@ class SurveyTool():
             self,
             question: str
     ):
-        try:
-            import plotly.express as px
-        except Exception as e:
-            print(e)
-            return
+        import plotly.express as px
+
         response_df = self.get_response(question)
         response_counts = response_df['Response'].value_counts().reset_index()
         response_counts.columns = ['Response', 'Count']
