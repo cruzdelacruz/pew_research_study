@@ -52,6 +52,8 @@ class SurveyTool():
         if self.survey_codebook_csv is None:
             self.codebook_to_csv()
             codebook_dict = self.survey_codebook_csv.to_dict()
+        else:
+            codebook_dict = self.survey_codebook_csv.to_dict()
 
         for row in codebook_dict:
             variable_label = row.get(primary_header, None)
@@ -102,6 +104,8 @@ class SurveyTool():
                     response_rows.append(res_row)
         return pd.DataFrame(response_rows)
     
+    def list_questions(self):
+        print(f"{"\n".join(self.survey_questions.keys())}")
     def vizualize_results(
             self,
             question: str

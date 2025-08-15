@@ -46,6 +46,7 @@ class CsvUtil():
             writer = csv.writer(out_file)
             writer.writerows(new_rows)
         
+        self.path_to_csv = output_filepath
         print(f'Wrote {output_filepath}')
 
     def to_dict(
