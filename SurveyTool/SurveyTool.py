@@ -131,6 +131,17 @@ class SurveyTool():
             width=600
         )
         return fig
+    def auto_setup(
+            self
+    ):
+        try:
+            self.codebook_to_csv()
+            self.survey_codebook_csv.fill_forward('Variable_Label')
+            self.question_lookup_dict(primary_header='Variable_Label',excluded_variable_labels=['Unique ID','Interview start time','Interview end time'])
+        except Exception as e:
+            print(e)
+            return
+
 
 
 
